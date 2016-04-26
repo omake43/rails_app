@@ -28,6 +28,12 @@ gem 'spring',        group: :development
 
 group :test do
   gem 'rspec-rails'
+  gem 'rubocop'
+  gem 'rubocop-select'
+  gem 'rubocop-checkstyle_formatter'
+  gem 'saddler'
+  gem 'saddler-reporter-github'
+  gem 'checkstyle_filter-git'
 end
 
 # Use ActiveModel has_secure_password

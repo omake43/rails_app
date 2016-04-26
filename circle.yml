@@ -3,3 +3,7 @@ machine:
     Asia/Tokyo
   ruby:
     version: 2.2.3
+
+test:
+  post:
+    - ./scripts/run-rubocop.sh
